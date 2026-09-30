@@ -6,12 +6,10 @@
 [![Cleanroom - Class 100/1000](https://img.shields.io/badge/Cleanroom-Class%20100%2F1000-teal?style=flat)]()
 [![Instrumentation - Keithley 6430 SMU](https://img.shields.io/badge/Instrumentation-Keithley%206430%20SMU-purple?style=flat)]()
 [![Status - Complete](https://img.shields.io/badge/Status-Completed-success?style=flat)]()
-[![Report - PDF](https://img.shields.io/badge/Report-View_PDF-red?style=flat&logo=adobeacrobatreader)](M25EET007_HEMT_Fabrication_Report.pdf)
 
 > **Author:** Shrey Painuli (M25EET007)  
 > **Course Instructor:** Prof. Mahesh Kumar  
 > **Department:** Department of Electrical Engineering, Indian Institute of Technology (IIT) Jodhpur  
-> **Document:** [Final Technical Report (PDF)](M25EET007_HEMT_Fabrication_Report.pdf)
 
 ---
 
@@ -105,7 +103,7 @@ flowchart LR
 
 | (a) Incomplete Etch / Residue | (b) Severe Over-Etch & Undercut | (c) Optimized Selective Etch |
 | :---: | :---: | :---: |
-| <img src="assets/fig5a_incomplete_etching.jpg" width="230"/> | <img src="assets/fig5b_severe_overetching.jpg" width="230"/> | <img src="assets/fig5c_optimized_etching.jpg" width="230"/> |
+| <img src="assets/fig5a_incomplete_etching.jpg" width="215"/> | <img src="assets/fig5b_severe_overetching.jpg" width="360"/> | <img src="assets/fig5c_optimized_etching.jpg" width="180"/> |
 | *Milky resist scumming & incomplete metal clearance* | *Etchant lateral attack eroding contact pad structure* | *Pristine, sharply delineated $\text{Au}/\text{Cr}/\text{Al}$ contact pads* |
 
 ### Orthogonal Tri-Metal Wet Etch Chemistry
@@ -123,13 +121,13 @@ flowchart LR
 ### Instrumentation Setup & Pre-RTA Open-Circuit State
 | (a) Probe Station Contacting Pads | (b) Pre-RTA KickStart Sweep ($0\text{ to }6\text{ V}$) | (c) Pre-RTA Secondary Sweep ($0\text{ to }5\text{ V}$) |
 | :---: | :---: | :---: |
-| <img src="assets/fig6a_probe_station.jpg" width="230"/> | <img src="assets/fig6b_prerta_iv_curve.jpg" width="230"/> | <img src="assets/fig6c_prerta_secondary_sweep.jpg" width="230"/> |
+| <img src="assets/fig6a_probe_station.jpg" width="300"/> | <img src="assets/fig6b_prerta_iv_curve.jpg" width="240"/> | <img src="assets/fig6c_prerta_secondary_sweep.jpg" width="250"/> |
 | *Tungsten needle probes landed on pads* | *Current flat along noise floor ($-50\text{ to }+350\text{ pA}$)* | *Sub-nA baseline confirms zero carrier transport* |
 
 ### Post-RTA Contact Activation ($850^\circ\text{C}$, $45\text{ s}$)
 | (a) Device 1 Post-RTA $I$–$V$ Characteristic | (b) Device 2 Post-RTA $I$–$V$ Characteristic |
 | :---: | :---: |
-| <img src="assets/fig7a_postrta_device1_iv.jpg" width="340"/> | <img src="assets/fig7b_postrta_device2_iv.jpg" width="340"/> |
+| <img src="assets/fig7a_postrta_device1_iv.jpg" width="380"/> | <img src="assets/fig7b_postrta_device2_iv.jpg" width="380"/> |
 | *Robust ohmic activation reaching **$48\ \mu\text{A}$ at $10\text{ V}$*** | *Consistent quasi-ohmic conduction reaching **$26\ \mu\text{A}$ at $10\text{ V}$*** |
 
 ### Quantitative Performance Comparison
@@ -162,10 +160,3 @@ Post-RTA at 850°C (Field Emission Tunneling):
 2. **Degenerate $n^{++}$ Layer:** High concentration of nitrogen vacancies ($V_\text{N}^{++}$) acts as shallow donors, creating an interfacial layer where $N_\text{D} > 10^{19}\text{ cm}^{-3}$.
 3. **Barrier Width Collapse:** Depletion width scales as $W_\text{D} = \sqrt{\frac{2\varepsilon_s(\Phi_\text{B} - V)}{q N_\text{D}}}$, collapsing from $\sim 25\text{ nm}$ down to $< 2\text{ nm}$.
 4. **Ohmic Transport:** Thin barrier activates quantum mechanical **Field Emission (tunneling)**, delivering low contact resistance to the high-mobility 2DEG channel.
-
----
-
-## 📄 Documentation
-
-The complete laboratory report containing extended derivations, references, and equipment logs is available as a compiled PDF:
-* 📑 **[Download M25EET007_HEMT_Fabrication_Report.pdf](M25EET007_HEMT_Fabrication_Report.pdf)**
