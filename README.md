@@ -19,16 +19,9 @@ This repository documents the end-to-end cleanroom microfabrication, selective m
 
 The experimental sequence covers substrate cleaving along crystallographic planes, 4-stage ultrasonic surface degreasing, high-vacuum thermal evaporation of an $\text{Al}/\text{Cr}/\text{Au}$ ($180/30/200\text{ nm}$) ohmic stack, photolithographic micro-patterning, selective cyclic wet chemical etching, and rapid thermal annealing (RTA at $850^\circ\text{C}$). Measurements conducted on a **Keithley 6430 Sub-Femtoamp SMU** demonstrate contact activation from an as-deposited insulating open-circuit ($< 0.35\text{ nA}$) to active conduction ($48\ \mu\text{A}$ at $10\text{ V}$) via quantum mechanical field emission.
 
-```mermaid
-flowchart LR
-    A["Substrate Inspection\n& Cleaving"] --> B["Ultrasonic Degreasing\n(IPA / Acetone / MeOH)"]
-    B --> C["PVD Metallization\n(Al / Cr / Au: 410 nm)"]
-    C --> D["Photolithography\n(Holmarc 3915 rpm)"]
-    D --> E["Selective Wet Etching\n(Au ➔ Cr ➔ Al)"]
-    E --> F["Pre-RTA Probing\n(< 0.35 nA Open-Circuit)"]
-    F --> G["RTA Annealing\n(850°C, 45 s, N₂)"]
-    G --> H["Post-RTA Activation\n(48 µA @ 10 V)"]
-```
+<p align="center">
+  <img src="assets/hemt_fabrication_workflow.png" alt="AlGaN/GaN HEMT Microfabrication & Characterization Workflow" width="100%"/>
+</p>
 
 ---
 
